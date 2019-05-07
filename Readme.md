@@ -37,3 +37,8 @@ sudo launchctl debug gui/$UID/im.eddiek.hello --stdout --stderr
 ## Lint the Plist
 
 plutil -lint com.example.app.plist
+
+# Reference
+
+[Daemons and Services Programming Guide](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html#//apple_ref/doc/uid/10000172i-SW1-SW1)
+[Technical Note TN2083: Daemons and Agents](https://developer.apple.com/library/archive/technotes/tn2083/_index.html#//apple_ref/doc/uid/DTS10003794-CH1-SECTION30)
