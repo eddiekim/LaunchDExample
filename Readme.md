@@ -38,6 +38,13 @@ launchctl stop com.example.app
 sudo launchctl debug gui/$UID/im.eddiek.hello --stdout --stderr
 ```
 
+## Man
+
+```
+man launchctl
+man launchctl.plist
+```
+
 # Debugging
 
 ## Lint the Plist
