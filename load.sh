@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 
-launchctl load /Library/LaunchDaemons/im.eddiek.hello.plist
-echo "Loaded"
+sudo launchctl load -w /Library/LaunchDaemons/im.eddiek.hello.plist
