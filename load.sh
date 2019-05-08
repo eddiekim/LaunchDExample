@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-launchctl load /Users/edki/Library/LaunchAgents/im.eddiek.hello.plist
+launchctl load /Library/LaunchDaemons/im.eddiek.hello.plist
 echo "Loaded"

@@ -9,9 +9,9 @@
   <key>RunAtLoad</key> 
   <true/>
   <key>StandardOutPath</key> 
-  <string>/Users/edki/Desktop/launchdaemonexample/tmp.stdout</string>
+  <string>/Library/eddietest/tmp.stdout</string>
   <key>StandardErrorPath</key> 
-  <string>/Users/edki/Desktop/launchdaemonexample/tmp.stderr</string>
+  <string>/Library/eddietest/tmp.stderr</string>
   <key>MachServices</key>
   <dict>
     <key>im.eddiek.service</key>
