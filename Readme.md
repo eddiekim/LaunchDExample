@@ -12,6 +12,12 @@ ln -s /Users/edki/Desktop/launchdaemonexample/im.eddiek.hello.plist /Users/edki/
 sudo launchctl list
 ```
 
+## Blame
+
+```
+launchctl blame system/com.example.app.plist (for launch daemon)
+```
+
 ## Load/Unload
 
 ```
