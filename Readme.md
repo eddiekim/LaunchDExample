@@ -2,6 +2,9 @@
 
 ```
 ln -s /Users/edki/Desktop/launchdaemonexample/im.eddiek.hello.plist /Users/edki/Library/LaunchAgents/im.eddiek.hello.plist
+
+// Set permissions for launch daemons
+sudo chown root:wheel im.eddiek.hello.plist 
 ```
 
 # launchctl
@@ -23,6 +26,9 @@ launchctl blame system/com.example.app.plist (for launch daemon)
 ```
 launchctl load ~/Library/LaunchAgents/com.example.app.plist
 launchctl unload ~/Library/LaunchAgents/com.example.app.plist
+
+// Use -w
+// sudo for launch daemons
 ```
 
 ## Start/Stop
