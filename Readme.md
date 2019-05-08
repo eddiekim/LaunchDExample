@@ -9,7 +9,7 @@ ln -s /Users/edki/Desktop/launchdaemonexample/im.eddiek.hello.plist /Users/edki/
 ## List Jobs
 
 ```
-launchctl list
+sudo launchctl list
 ```
 
 ## Load/Unload
