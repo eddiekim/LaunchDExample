@@ -2,13 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Label</key>
-	<string>im.eddiek.hello</string>
-	<key>Program</key>
-	<string>/Users/edki/Desktop/launchdaemonexample/hello.sh</string>
-	<key>RunAtLoad</key> 
-	<true/>
+  <key>Label</key>
+  <string>im.eddiek.service</string>
+  <key>Program</key>
+  <string>/Users/edki/Desktop/launchdaemonexample/MyXpcListener</string>
+  <key>RunAtLoad</key> 
+  <true/>
   <key>StandardOutPath</key> 
   <string>/Users/edki/Desktop/launchdaemonexample/tmp.stdout</string>
+  <key>StandardErrorPath</key> 
+  <string>/Users/edki/Desktop/launchdaemonexample/tmp.stderr</string>
+  <key>MachServices</key>
+  <dict>
+    <key>im.eddiek.service</key>
+    <true/>
+  </dict>
 </dict>
 </plist>
